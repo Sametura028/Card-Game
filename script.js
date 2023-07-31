@@ -1,4 +1,5 @@
 const gridContainer = document.querySelector(".grid-container");
+
 let cards = [];
 let firstCard, secondCard;
 let lockBoard = false;
@@ -69,14 +70,30 @@ function checkForMatch() {
     let isMatch = firstCard.dataset.name === secondCard.dataset.name;
 
     isMatch ? disableCards() : unflipCards();
+
 }
 function disableCards() {
-  
+
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", flipCard);
-    resetBoard();  score++;
+    resetBoard(); score++;
+
+    setTimeout(() => {
+        if (score === 9) {
+            var tebrik = document.querySelector('.cong');
+            var game = document.querySelector('.game');
+            tebrik.style.display = "flex";
+            game.style.position = "relative";
+            var audio = new Audio('win.mp3');
+            audio.play();
+            setTimeout(() => { location.reload() }, 2000);
+        }
+    }, 700);
+    console.log(score);
     document.querySelector(".score").textContent = score;
 }
+
+
 function unflipCards() {
     setTimeout(() => {
         firstCard.classList.remove("flipped");
