@@ -1,38 +1,38 @@
 [
     {
-        "image": "assets/chili.png",
+        "image": "https://storage.acerapps.io/app-1117/chili.png",
         "name": "chili"
     },
     {
-        "image": "assets/grapes.png",
+        "image": "https://storage.acerapps.io/app-1117/grapes.png",
         "name": "grapes"
     },
     {
-        "image": "assets/lemon.png",
+        "image": "https://storage.acerapps.io/app-1117/lemon.png",
         "name": "lemon"
     },
     {
-        "image": "assets/orange.png",
+        "image": "https://storage.acerapps.io/app-1117/orange.png",
         "name": "orange"
     },
     {
-        "image": "assets/pineapple.png",
+        "image": "https://storage.acerapps.io/app-1117/pineapple.png",
         "name": "pineapple"
     },
     {
-        "image": "assets/strawberry.png",
+        "image": "https://storage.acerapps.io/app-1117/strawberry.png",
         "name": "strawberry"
     },
     {
-        "image": "assets/tomato.png",
+        "image": "https://storage.acerapps.io/app-1117/tomato.png",
         "name": "tomato"
     },
     {
-        "image": "assets/watermelon.png",
+        "image": "https://storage.acerapps.io/app-1117/watermelon.png",
         "name": "watermelon"
     },
     {
-        "image": "assets/cherries.png",
+        "image": "https://storage.acerapps.io/app-1117/cherries.png",
         "name": "cherries"
     }
 ]
